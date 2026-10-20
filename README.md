@@ -77,3 +77,7 @@ gemini extensions install https://github.com/maxdhs/terminal-tax-mcp-server
 
 This repository holds only this description, the MCP Registry `server.json`, client configuration files and the logo.
 It contains no code and nothing to run: the server is hosted by Terminal Tax LLC.
+
+## Demo
+
+[demo/terminal-tax-demo.mp4](demo/terminal-tax-demo.mp4): a two-minute recording on the Terminal Tax test environment (app.terminal.tax) with a synthetic taxpayer; nothing is filed. It shows the assistant's tool calls, the accepted packet and the hosted filing page up to the card step, before signing.
