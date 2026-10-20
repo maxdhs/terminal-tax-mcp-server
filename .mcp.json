@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "terminal-tax": {
+      "type": "http",
+      "url": "https://mcp.terminal.tax/v1/hosted-mcp"
+    }
+  }
+}
