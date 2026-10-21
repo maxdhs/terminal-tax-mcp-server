@@ -70,7 +70,7 @@ Cursor, VS Code and other clients that read `.mcp.json`: see [`.mcp.json`](.mcp.
 Gemini CLI:
 
 ```sh
-gemini extensions install https://github.com/maxdhs/terminal-tax-mcp-server
+gemini extensions install https://github.com/terminaltax/terminal-tax-mcp-server
 ```
 
 ## About this repository
