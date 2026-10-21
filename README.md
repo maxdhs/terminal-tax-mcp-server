@@ -25,7 +25,9 @@ sponsored by, or endorsed by the IRS or the U.S. Treasury.
 - `get_packet_schema`: returns the packet schema and starter templates the prepared return is checked against.
 - `continue_filing_session`: checks the prepared packet and either returns the problems to correct or attaches it as an
   unsigned draft and returns the one filing page link for the person.
-- `get_filing_status`: status-only results for the filing; never return content, identity or payment data.
+
+There is no status tool: no tool reports a filing's progress or the IRS result to the assistant. Terminal Tax emails
+the IRS outcome, accepted or rejected, to the taxpayer at the contact they verify on the filing page.
 
 ## Scope
 
