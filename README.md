@@ -73,9 +73,20 @@ Gemini CLI:
 gemini extensions install https://github.com/terminaltax/terminal-tax-mcp-server
 ```
 
+Kiro: Powers > Add Custom Power > Import power from GitHub, with this repository's URL (it reads
+[`plugin.json`](plugin.json) and [`mcp.json`](mcp.json)).
+
+Cursor plugin: [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json) declares the same remote server.
+
+Cline: add a remote server named `terminal-tax` with the URL above and Streamable HTTP transport, or from the Cline CLI:
+
+```sh
+cline mcp add terminal-tax https://mcp.terminal.tax/v1/hosted-mcp --transport streamableHttp --yes
+```
+
 ## About this repository
 
-This repository holds only this description, the MCP Registry `server.json`, client configuration files and the logo.
+This repository holds only this description, the MCP Registry `server.json`, client configuration and plugin manifest files and the logo.
 It contains no code and nothing to run: the server is hosted by Terminal Tax LLC.
 
 ## Demo
