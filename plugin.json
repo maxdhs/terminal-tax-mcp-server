@@ -10,5 +10,6 @@
   },
   "homepage": "https://terminal.tax/integrations",
   "repository": "https://github.com/terminaltax/terminal-tax-mcp-server",
+  "license": "MIT",
   "keywords": ["tax", "taxes", "e-file", "irs e-file", "form 1040", "federal tax return", "file my taxes", "finance"]
 }
