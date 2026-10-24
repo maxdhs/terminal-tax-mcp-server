@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+{% seo %}
+    <link rel="icon" href="{{ "/assets/icon.svg" | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ "/assets/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrap">
+      <a class="brand" href="https://terminal.tax"><img src="{{ "/assets/icon.svg" | relative_url }}" alt="" width="22" height="22">terminal.tax</a>
+      <main class="card">
+{{ content }}
+      </main>
+    </div>
+  </body>
+</html>
